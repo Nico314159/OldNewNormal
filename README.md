@@ -1,5 +1,5 @@
 # OldNewNormal
-A mod for KSP to bring back the old textures of certain parts. [Imgur album](https://imgur.com/a/yPPZcUj)
+A mod for KSP to bring back the old textures of certain parts. [Imgur album](https://imgur.com/a/yPPZcUj) (Not pictured: 0.625m and 3.75m parts)
 
 # Current list of affected parts
 
