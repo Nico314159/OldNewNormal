@@ -12,6 +12,7 @@ A mod for KSP to bring back the old textures of certain parts
 1.25m size: </br>
 • RT-5 "Flea" Solid Fuel Booster </br>
 • RT-10 "Hammer" Solid Fuel Booster </br>
+• BACC "Thumper" Solid Fuel Booster </br>
 • LV-909 "Terrier" Liquid Fuel Engine </br>
 • TR-18A / TD-12 Stack Decoupler </br>
 • TR-18D / TS-12 Stack Separator </br>
