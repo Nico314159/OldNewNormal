@@ -1,0 +1,595 @@
+@PART[fuelTankSmallFlat]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankT100/model
+	}
+	@MODULE[ModulePartVariants]
+	{
+		-primaryColor = #4c4f47
+		-secondaryColor = #4c4f47
+		-baseDisplayName = #autoLOC_8007117
+		-baseThemeName = Dark
+		
+		baseVariant = Dark
+		VARIANT,0
+		{
+			name = Dark
+			displayName = #autoLOC_8007117
+			themeName = Dark
+			primaryColor = #4c4f47
+			secondaryColor = #4c4f47
+			
+			GAMEOBJECTS
+			{
+//				fuelTankSmallFlat = false
+				obj_base = false
+				125_1 = true
+			}
+		}
+		@VARIANT[BlackAndWhite]
+		{
+			GAMEOBJECTS
+			{
+//				fuelTankSmallFlat = false
+				obj_base = false
+				125_1 = true
+			}
+		}
+		@VARIANT[White]
+		{
+			GAMEOBJECTS
+			{
+//				fuelTankSmallFlat = false
+				obj_base = false
+				125_1 = true
+			}
+		}
+		@VARIANT[GrayAndOrange]
+		{
+			GAMEOBJECTS
+			{
+//				fuelTankSmallFlat = false
+				obj_base = false
+				125_1 = true
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Legacy
+			themeName = Legacy
+			primaryColor = #ffffff
+			secondaryColor = #4c4f47
+			GAMEOBJECTS
+			{
+//				fuelTankSmallFlat = true
+				obj_base = true
+				125_1 = false
+			}
+		}
+	}
+}
+
+@PART[fuelTankSmall]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankT200/model
+		scale = 1.266, 1.266, 1.266
+	}
+	@MODULE[ModulePartVariants]
+	{
+		-primaryColor = #4c4f47
+		-secondaryColor = #4c4f47
+		-baseDisplayName = #autoLOC_8007117
+		-baseThemeName = Dark
+		
+		baseVariant = Dark
+		VARIANT,0
+		{
+			name = Dark
+			displayName = #autoLOC_8007117
+			themeName = Dark
+			primaryColor = #4c4f47
+			secondaryColor = #4c4f47
+			
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_2 = true
+			}
+		}
+		@VARIANT[BlackAndWhite]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_2 = true
+			}
+		}
+		@VARIANT[White]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_2 = true
+			}
+		}
+		@VARIANT[GrayAndOrange]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_2 = true
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Legacy
+			themeName = Legacy
+			primaryColor = #ffffff
+			secondaryColor = #4c4f47
+			GAMEOBJECTS
+			{
+				fueltank = true
+				125_2 = false
+			}
+		}
+	}
+}
+
+@PART[fuelTank]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankT400/model
+		scale = 1.266, 1.266, 1.266
+	}
+	@MODULE[ModulePartVariants]
+	{
+		-primaryColor = #4c4f47
+		-secondaryColor = #4c4f47
+		-baseDisplayName = #autoLOC_8007117
+		-baseThemeName = Dark
+		
+		baseVariant = Dark
+		VARIANT,0
+		{
+			name = Dark
+			displayName = #autoLOC_8007117
+			themeName = Dark
+			primaryColor = #4c4f47
+			secondaryColor = #4c4f47
+			
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_3 = true
+			}
+		}
+		@VARIANT[BlackAndWhite]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_3 = true
+			}
+		}
+		@VARIANT[White]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_3 = true
+			}
+		}
+		@VARIANT[GrayAndOrange]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_3 = true
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Legacy
+			themeName = Legacy
+			primaryColor = #ffffff
+			secondaryColor = #4c4f47
+			GAMEOBJECTS
+			{
+				fueltank = true
+				125_3 = false
+			}
+		}
+	}
+}
+
+@PART[fuelTank_long]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankT800/model
+		scale = 1.266, 1.266, 1.266
+	}
+	@MODULE[ModulePartVariants]
+	{
+		-primaryColor = #4c4f47
+		-secondaryColor = #4c4f47
+		-baseDisplayName = #autoLOC_8007117
+		-baseThemeName = Dark
+		
+		baseVariant = Dark
+		VARIANT,0
+		{
+			name = Dark
+			displayName = #autoLOC_8007117
+			themeName = Dark
+			primaryColor = #4c4f47
+			secondaryColor = #4c4f47
+			
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_4 = true
+			}
+		}
+		@VARIANT[BlackAndWhite]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_4 = true
+			}
+		}
+		@VARIANT[White]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_4 = true
+			}
+		}
+		@VARIANT[GrayAndOrange]
+		{
+			GAMEOBJECTS
+			{
+				fueltank = false
+				125_4 = true
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Legacy
+			themeName = Legacy
+			primaryColor = #ffffff
+			secondaryColor = #4c4f47
+			GAMEOBJECTS
+			{
+				fueltank = true
+				125_4 = false
+			}
+		}
+	}
+}
+
+@PART[Rockomax8BW]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankX200-8/model
+	}
+	@MODULE[ModulePartVariants]
+	{
+		@VARIANT[BlackAndWhite]
+		{
+			@GAMEOBJECTS
+			{
+				smalltank = false
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.455, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.455, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+		@VARIANT[Orange]
+		{
+			@GAMEOBJECTS
+			{
+				smalltank = false
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.455, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.455, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Old Tank
+			themeName = Legacy
+			primaryColor = #999999
+			secondaryColor = #999999
+			GAMEOBJECTS
+			{
+				Rockomax_8_White = false
+				Rockomax_8_Orange = false
+				smalltank = true
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.46875, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.46875, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+	}
+}
+
+@PART[Rockomax16_BW]:NEEDS[legacy]
+{
+	MODEL
+	{
+		model = legacy/Parts/FuelTank/fuelTankX200-16/model
+	}
+	@MODULE[ModulePartVariants]
+	{
+		-primaryColor = #ffffff
+		-secondaryColor = #000000
+		-baseDisplayName = #autoLOC_8007122
+		-baseThemeName = BlackAndWhite
+		
+		baseVariant = White
+		VARIANT,0
+		{
+			name = white
+			primaryColor = #ffffff
+			secondaryColor = #000000
+			displayName = #autoLOC_8007122
+			themeName = BlackAndWhite
+			TEXTURE
+			{
+				mainTextureURL = Squad/Parts/FuelTank/RockomaxTanks/Assets/rockomax_16 [AlbedoM] BW
+				_BumpMap = Squad/Parts/FuelTank/RockomaxTanks/Assets/rockomax_16 [Normal] BW
+			}
+			GAMEOBJECTS
+			{
+				Rockomax_16 = true
+				medtank = false
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.92, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.92, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+		@VARIANT[Orange]
+		{
+			GAMEOBJECTS
+			{
+				Rockomax_16 = true
+				medtank = false
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.92, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.92, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+		@VARIANT[ESA]
+		{
+			GAMEOBJECTS
+			{
+				Rockomax_16 = true
+				medtank = false
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.92, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.92, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Old Tank
+			themeName = Legacy
+			primaryColor = #999999
+			secondaryColor = #999999
+			GAMEOBJECTS
+			{
+				Rockomax_16 = false
+				medtank = true
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.9375, 0.0, 0.0, 1.0, 0.0, 2
+				node_stack_bottom = 0.0, -0.9375, 0.0, 0.0, -1.0, 0.0, 2
+			}
+		}
+	}
+}
+
+@PART[Rockomax32_BW]:NEEDS[legacy]
+{
+	MODEL,2
+	{		
+		model = legacy/Parts/FuelTank/fuelTankX200-32/model
+	}
+	@MODULE[ModulePartVariants]
+	{
+		baseVariant = BlackAndWhite
+		@VARIANT[BlackAndWhite]
+		{
+			@GAMEOBJECTS
+			{
+				tank = false
+			}
+		}
+		@VARIANT[Orange]
+		{
+			@GAMEOBJECTS
+			{
+				tank = false
+			}
+		}
+        @VARIANT[ESA]
+		{
+			@GAMEOBJECTS
+			{
+				tank = false
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = The Ugly Tank
+			themeName = Legacy
+			primaryColor = #999999
+			secondaryColor = #999999
+			GAMEOBJECTS
+			{
+				tank = true
+				Rockomax_32_White = false
+				Rockomax_32_Orange = false
+				Rockomax_32_ESA = false
+			}
+		}
+	}
+}
+
+@PART[Rockomax64_BW]:NEEDS[legacy]
+{
+	MODEL,2
+	{
+		model = legacy/Parts/FuelTank/fuelTankJumbo-64/model
+	}
+	@MODULE[ModulePartVariants]
+	{
+		@VARIANT[BlackAndWhite]
+		{
+			@GAMEOBJECTS
+			{
+				longtank = false
+			}
+		}
+		@VARIANT[Orange]
+		{
+			@GAMEOBJECTS
+			{
+				longtank = false
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = The Orange Tank
+			themeName = Legacy
+			primaryColor = #f49841
+			secondaryColor = #4c4f47
+			GAMEOBJECTS
+			{
+				Rockomax_64_White = false
+				Rockomax_64_Orange = false
+				longtank = true
+			}
+		}
+	}
+}
+
+@PART[externalTankToroid]:NEEDS[legacy]
+{
+	MODEL,1
+	{
+		model = legacy/Parts/FuelTank/fuelTankToroidal/model
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		baseVariant = New
+		VARIANT
+		{
+			name = New
+			displayName = New
+			themeName = New
+			primaryColor = #f49841
+			secondaryColor = #434242
+			GAMEOBJECTS
+			{
+				ToroidTank = true
+				tank = false
+
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.125, 0.0, 0.0, 1.0, 0.0
+				node_stack_bottom = 0.0, -0.125, 0.0, 0.0, -1.0, 0.0
+			}
+		}
+		VARIANT
+		{
+			name = Old
+			displayName = Old
+			themeName = Legacy
+			primaryColor = #f49841
+			secondaryColor = #33302b
+			GAMEOBJECTS
+			{
+				ToroidTank = false
+				tank = true
+			}
+			NODES
+			{
+				node_stack_top = 0.0, 0.0498631, 0.0, 0.0, 1.0, 0.0
+				node_stack_bottom = 0.0, -0.0498631, 0.0, 0.0, -1.0, 0.0
+			}
+		}
+	}
+}
+
+
+// @PART[RCSTank1-2]:NEEDS[legacy]
+// {
+// 	MODEL
+// 	{
+// 		model = legacy/Parts/FuelTank/RCSFuelTankR1/model
+// 	}
+// 	@MODULE[ModulePartVariants]
+// 	{
+// 		@VARIANT[GrayAndWhite]
+// 		{
+// 			GAMEOBJECTS
+// 			{
+// 				RCSFuelTankR1 = true
+// 				tank = false
+// 			}
+// 		}
+// 		@VARIANT[YellowAndWhite]
+// 		{
+// 			GAMEOBJECTS
+// 			{
+// 				RCSFuelTankR1 = false
+// 				tank = false
+// 			}
+// 		}
+// 		VARIANT
+// 		{
+// 			name = Old
+// 			displayName = Legacy
+// 			themeName = Legacy
+// 			primaryColor = #f49841
+// 			secondaryColor = #4c4f47
+// 			GAMEOBJECTS
+// 			{
+// 				RCSFuelTankR1 = false
+// 				tank = true
+// 			}
+// 		}
+// 	}
+// }
