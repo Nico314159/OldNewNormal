@@ -19,7 +19,6 @@ A mod for KSP to bring back the old textures of certain parts. [Imgur album](htt
  </br>
  
 2.5m size: </br>
-• Rockomax Brand Adapter </br>
 • RE-L10 "Poodle" Liquid Fuel Engine </br>
 • Rockomax Brand / TD-25 Stack Decoupler </br>
 • TR-XL / TS-25 Stack Separator </br>
@@ -28,4 +27,12 @@ A mod for KSP to bring back the old textures of certain parts. [Imgur album](htt
 3.75m size: </br>
 • TR-38-D / TD-37 Stack Decoupler </br>
  </br>
+ 
+Size adapters: </br>
+• FL-A10 Adapter (0.625m to 1.25m, regular) </br>
+• FL-A5 Adapter (0.625m to 1.25m, low-profile) </br>
+• Rockomax Brand Adapter (1.25m to 2.5m, regular) </br>
+• Rockomax Brand Adapter 02 (1.25m to 2.5m, low-profile) </br>
+</br>
+
  More parts will be added as time goes on!
