@@ -10,9 +10,10 @@ A mod for KSP to bring back the old textures of certain parts. [Imgur album](htt
  </br>
 
 1.25m size: </br>
+• Aerodynamic Nose Cone </br>
+• BACC "Thumper" Solid Fuel Booster </br>
 • RT-5 "Flea" Solid Fuel Booster </br>
 • RT-10 "Hammer" Solid Fuel Booster </br>
-• BACC "Thumper" Solid Fuel Booster </br>
 • LV-909 "Terrier" Liquid Fuel Engine </br>
 • TR-18A / TD-12 Stack Decoupler </br>
 • TR-18D / TS-12 Stack Separator </br>
@@ -20,6 +21,7 @@ A mod for KSP to bring back the old textures of certain parts. [Imgur album](htt
  
 2.5m size: </br>
 • RE-L10 "Poodle" Liquid Fuel Engine </br>
+• RE-M3 "Mainsail" Liquid Fuel Engine </br>
 • Rockomax Brand / TD-25 Stack Decoupler </br>
 • TR-XL / TS-25 Stack Separator </br>
  </br>
