@@ -4,6 +4,7 @@
 	{
 		model = OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_125
 	}
+	!MODULE[ModuleAnimateGeneric] {}
 	MODULE
 	{
 		name = ModulePartVariants
@@ -24,6 +25,15 @@
 				Squad/Parts/Utility/ServiceBay_v2/Assets/ServiceBay_125_v2(Clone) = true
 				OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_125(Clone) = false
 			}
+			MODULE
+			{
+				name = ModuleAnimateGeneric
+				animationName = ServiceBayDoors
+				actionGUIName = #autoLOC_502068 //#autoLOC_502068 = Toggle
+				startEventGUIName = #autoLOC_502069 //#autoLOC_502069 = Open
+				endEventGUIName = #autoLOC_502051 //#autoLOC_502051 = Close
+				allowAnimationWhileShielded = False
+			}
 		}
 		VARIANT
 		{
@@ -37,6 +47,24 @@
 				Squad/Parts/Utility/ServiceBay_v2/Assets/ServiceBay_125_v2(Clone) = false
 				OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_125(Clone) = true
 			}
+			MODULE
+			{
+				name = ModuleSeeThroughObject
+				transformName = TrussMount
+				shaderName = KSP/Bumped Specular (Transparent)
+				screenRadius = 1.0
+				leadModuleIndex = 0
+				leadModuleTgtValue = 0
+			}	
+			MODULE
+			{
+				name = ModuleAnimateGeneric
+				animationName = doors_125
+				actionGUIName = #autoLOC_502068 //#autoLOC_502068 = Toggle
+				startEventGUIName = #autoLOC_502069 //#autoLOC_502069 = Open
+				endEventGUIName = #autoLOC_502051 //#autoLOC_502051 = Close
+				allowAnimationWhileShielded = False
+			}
 		}
 	}
 } 
@@ -45,6 +73,10 @@
 	MODEL
 	{
 		model = OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_250
+	}
+	@MODULE[ModuleAnimateGeneric]
+	{
+		@animationName = doors_250, ServiceBayDoors
 	}
 	MODULE
 	{
@@ -66,6 +98,15 @@
 				Squad/Parts/Utility/ServiceBay_v2/Assets/ServiceBay_250_v2(Clone) = true
 				OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_250(Clone) = false
 			}
+			MODULE
+			{
+				name = ModuleAnimateGeneric
+				animationName = ServiceBayDoors
+				actionGUIName = #autoLOC_502068 //#autoLOC_502068 = Toggle
+				startEventGUIName = #autoLOC_502069 //#autoLOC_502069 = Open
+				endEventGUIName = #autoLOC_502051 //#autoLOC_502051 = Close
+				allowAnimationWhileShielded = False
+			}
 		}
 		VARIANT
 		{
@@ -78,6 +119,24 @@
 			{
 				Squad/Parts/Utility/ServiceBay_v2/Assets/ServiceBay_250_v2(Clone) = false
 				OldNewNormal/Parts/Utility/ServiceBay_v1/ServiceBay_250(Clone) = true
+			}
+			MODULE
+			{
+				name = ModuleSeeThroughObject
+				transformName = TrussMount
+				shaderName = KSP/Bumped Specular (Transparent)
+				screenRadius = 2.0
+				leadModuleIndex = 0
+				leadModuleTgtValue = 0
+			}
+			MODULE
+			{
+				name = ModuleAnimateGeneric
+				animationName = doors_125
+				actionGUIName = #autoLOC_502068 //#autoLOC_502068 = Toggle
+				startEventGUIName = #autoLOC_502069 //#autoLOC_502069 = Open
+				endEventGUIName = #autoLOC_502051 //#autoLOC_502051 = Close
+				allowAnimationWhileShielded = False
 			}
 		}
 	}
