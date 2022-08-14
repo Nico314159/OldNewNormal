@@ -1,5 +1,5 @@
 # OldNewNormal
-A mod for KSP to bring back the old textures of certain parts. [Imgur album](https://imgur.com/a/yPPZcUj) (Not up to date; does not show 0.625m and 3.75m parts or other recent additions)
+A mod for KSP to bring back the old textures of certain parts. [Imgur album](https://imgur.com/a/yPPZcUj) (Not pictured: BACC Thumper & Nose Cone)
 
 # Current list of affected parts
 
